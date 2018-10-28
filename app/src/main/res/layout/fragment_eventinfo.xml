@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26c6da">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5050"
+            android:textColor="#fff"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="WordGame"
+            android:textColor="#fff"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_x2"
+            android:gravity="center"
+            android:minWidth="200dp"
+            android:text="We are about to begin in.."
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_x2"
+            android:gravity="center"
+            android:minWidth="200dp"
+            android:text="25:30"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_x2"
+            android:gravity="center"
+            android:minWidth="200dp"
+            android:text="CLOTHES"
+            android:textColor="#fff"
+            android:textSize="35sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minWidth="200dp"
+                android:text="56"
+                android:textColor="#fff"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minWidth="200dp"
+                android:text="PlayerS"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/margin_x3"
+        android:padding="@dimen/padding_x2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" android:gravity="center">
+        <Button
+            android:layout_margin="@dimen/margin_x2"
+            android:background="@drawable/shape_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notify me" />
+        <Button
+            android:layout_margin="@dimen/margin_x2"
+            android:background="@drawable/shape_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lets Rock!" />
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_x3">6dp</dimen>
+    <dimen name="margin_x2">3dp</dimen>
+    <dimen name="margin_x1">1dp</dimen>
+    <dimen name="padding_x3">6dp</dimen>
+    <dimen name="padding_x2">3dp</dimen>
+    <dimen name="padding_x1">1dp</dimen>
+</resources>
